@@ -23,3 +23,6 @@ for(x in names){
     console.log(x); //attension: x refers to array index not values.
     console.log(names[x]); // object_name[x] will print values inside the array.
 }
+//N:B: Using for in to iterate into an array is not recommended. 
+// Do not use for in if order of array index is important. 
+// We should use for of loop/ Array.forEach() to iterate through array elements.
