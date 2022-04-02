@@ -26,3 +26,4 @@ do{
 }while(i2 <= 20);
 
 console.log(text2);
+//in while loop, do block will be executed at least one time before checking the while condition.
